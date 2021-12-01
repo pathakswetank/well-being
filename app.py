@@ -3,6 +3,7 @@ import warnings
 warnings.filterwarnings("ignore")
 import pickle
 import streamlit as st
+from sklearn.ensemble import RandomForestRegressor
  
 # loading the trained model
 pickle_in = open('stress.pkl', 'rb') 
